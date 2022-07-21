@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="color">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold fst-italic text-white" href="#">Tomato</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white active" aria-current="page" href="#">Invester Relations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Add restraurant</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Log in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid d-flex justify-content-center align-items-center flex-column position-relative"
+        id="banner">
+        <h3 class="text-white display-1 fw-bold fst-italic">Tomato</h3>
+        <p class="text-white h3 fw-light">Discover the best food & drinks in Bengaluru</p>
+        <img src="../pics/zomato.avif" class="d-block w-100 position-absolute top-0 start-0 h-100" id="bgimg" alt="...">
+        <div class="input-group w-50 input-group-lg mb-3 ">
+            <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Bengaluru</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+            <input type="text" class="form-control" aria-label="Text input with dropdown button">
+        </div>
+
+    </div>
+
+    <div class="container my-4">
+
+        <div class="row g-2">
+
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
+
+                <div class="card">
+                    <img src="../pics/1.avif" class="card-img-top fix-height" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Order Online</h5>
+                        <p class="card-text text-truncate">Some quick example text to build on the card title and make
+                            up the bulk of
+                            the
+                            card's content.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
+
+                <div class="card">
+                    <img src="../pics/2.avif" class="card-img-top fix-height" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Dinning Out</h5>
+                        <p class="card-text text-truncate">Some quick example text to build on the card title and make
+                            up the bulk of
+                            the
+                            card's content.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
+
+                <div class="card">
+                    <img src="../pics/3.avif" class="card-img-top fix-height" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nightlifes and Clubs</h5>
+                        <p class="card-text text-truncate">Some quick example text to build on the card title and make
+                            up the bulk of
+                            the
+                            card's content.</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- <div class="container">
+        <div class="display-3 fw-bold">Collections</div>
+        <p>Explore curated lists of top restaurants, cafes, pubs, and bars in Pune, based on trends</p>
+
+    </div> -->
+
+    <div class="container mrgn">
+
+        <div>
+            <h2 class="collections">Collections</h2>
+            <div class="d-flex explore-text">
+                <h6 class="content-exlore">Explore curated lists of top restaurants, cafes, pubs, and bars in Pune,
+                    based on trends</h6>
+                <a href="" style="text-decoration: none;" class="text-danger">All collections in Pune</a>
+            </div>
+        </div>
+        <div class="row g-2 mid-pics">
+
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6 position-relative">
+                <div class="position-absolute bottom-0 text-in-image">
+                    <h1 class="text-light h3">Newly Opened</h1>
+                    <p class="text-light">24 Places</p>
+                </div>
+                <img src="https://b.zmtcdn.com/data/collections/031c2dd47d839ff2bf98dbb66147ab4f_1648708863.jpg?output-format=webp"
+                    class="w-100 img-fit rounded" alt="">
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6">
+                <img src="https://b.zmtcdn.com/data/collections/499de3b0f7b638383fc494b6f4bbc59a_1648188782.jpg?output-format=webp"
+                    class="w-100 img-fit rounded" alt="">
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6">
+                <img src="https://b.zmtcdn.com/data/collections/eb69f5f6e70ac43c8c0923fef39fabaf_1535615947.jpg?output-format=webp"
+                    class="w-100 img-fit rounded" alt="">
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6">
+                <img src="https://b.zmtcdn.com/data/collections/9ccef9485579ac79ad8cd10c4c46dd13_1647261373.jpg?output-format=webp"
+                    class="w-100 img-fit rounded" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div>
+            <p class="h1 fw-light">Popular localities in and around
+                <span class="fw-normal">Pune</span>
+            </p>
+        </div>
+    </div>
+
+    <div class="container" style="margin-bottom: 100px;">
+        <div class="row gy-3">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="d-flex gap-2 shadow-sm">
+                    <button class="btn btn-light btn-lg btn-height" type="button">
+                        <div class="d-flex">
+                            <div>
+                                <p class="btn-heading">Baner</p>
+                                <p class="branches">1007 Places</p>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="d-grid gap-2 shadow-sm">
+                    <button class="btn btn-light btn-lg btn-height" type="button">
+                        <p class="btn-heading">Viman Nagar</p>
+                        <p class="branches">1007 Places</p>
+                    </button>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="d-grid gap-2 shadow-sm">
+                    <button class="btn btn-light btn-lg btn-height" type="button">
+                        <p class="btn-heading">Hinjawadi</p>
+                        <p class="branches">1007 Places</p>
+                    </button>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="d-grid gap-2 shadow-sm">
+                    <button class="btn btn-light btn-lg btn-height" type="button">
+                        <p class="btn-heading">Koregaon Park</p>
+                        <p class="branches">1007 Places</p>
+                    </button>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="d-grid gap-2 shadow-sm">
+                    <button class="btn btn-light btn-lg btn-height" type="button">
+                        <p class="btn-heading">Wakad</p>
+                        <p class="branches">1007 Places</p>
+                    </button>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="d-grid gap-2 shadow-sm">
+                    <button class="btn btn-light btn-lg btn-height" type="button">
+                        <p class="btn-heading">Kothrud</p>
+                        <p class="branches">1007 Places</p>
+                    </button>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="d-grid gap-2 shadow-sm">
+                    <button class="btn btn-light btn-lg btn-height" type="button">
+                        <p class="btn-heading">Kalyani Nagar</p>
+                        <p class="branches">1007 Places</p>
+                    </button>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="d-grid gap-2 shadow-sm">
+                    <button class="btn btn-light btn-lg btn-height" type="button">
+                        <p class="btn-heading">Khardi</p>
+                        <p class="branches">1007 Places</p>
+                    </button>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="d-grid gap-2 shadow-sm">
+                    <button class="btn btn-light btn-lg" type="button">
+                        <p></p>
+                        <p class="branches">see more</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- image section -->
+    
+    <!-- Get the Zomato app -->
+
+    <div class="container-fluid  w-100 bgcolor">
+        <div class="row">
+                <div class="col-4">
+                    <div class="divpic">
+                        <div></div>
+                        <img src="../pics/mb.avif" alt="" class="mobile-image">
+                    </div>
+                </div>
+
+                <div class="col-6 offset-1 ">
+                    <h2 style="font-size: 45px;">Get the Zomato app</h2>
+                    <p>We will send you a link, open it on your phone to download the app</p>
+                    <div>
+                        <section class="d-flex w-50">
+                            <section class="email-phone">
+                                <label for="" class="d-flex justify-content-center font-size-btn">
+                                    <input type="radio" name="radio" class="inpt" checked value="email">
+                                    <span class="email-margin">Email</span>
+                                </label>
+                            </section>
+
+                            <!-- section-2 -->
+                            <section>
+                                <label for="" class="d-flex justify-content-center font-size-btn">
+                                    <input type="radio" name="radio" class="inpt">
+                                    <span class="email-margin">Phone</span>
+                                </label>
+                            </section>
+                        </section>
+                    </div>
+
+                    <div class="d-flex justify-content-between" style="width: 60%;">
+                        <section style="min-width: 300px;">
+                            <section class="w-100"><input class="w-100" type="text" placeholder="Email"></section>
+                        </section>
+
+                        <button>
+                            <span>
+                                <span>Share App Link</span>
+                            </span>
+                        </button>
+                    </div>
+
+                    <p>App download from</p>
+                    <div class="d-flex justify-content-between" style="width: 50%;">
+                        <a href="">
+                            <div style="height: 4rem; width: 10.7rem;">
+
+                                <img src="../pics/playstoreimg.webp" alt="" style="width: 100%;">
+                            </div>
+                        </a>
+                        <div>
+                            <a href="">
+                                <div style="height: 4rem; width: 10.7rem;">
+
+                                    <img src="../pics/playstoreimg2.webp" alt="" style="width: 100%;">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+
+    <!-- Footer-part -->
+
+    <div class="container-fluid mt-4" id="footer">
+        <footer class="pt-5">
+            <div class="row justify-content-around g-2">
+
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="">
+                        <h5>ABOUT ZOMATO</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Who We Are</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blog</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Work With Us</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Investor Relations</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Report Fund</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="">
+                        <h5>ZOMAVERSE</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Zomato</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Feeding India</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hyperpure</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Zomaland</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div>
+                        <h5>RESTAURANTS</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Partner With Us</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Apps For You</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div>
+                        <h5>LEARN MORE</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Security</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terms</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sitemap</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div>
+                        <h5>Social Link</h5>
+                        <ul class="nav flex-column">
+                            <a href="#" class="nav-link p-0 text-muted">
+                                <div class="d-flex justify-content-between m">
+                                    <i class="bi bi-linkedin justify-content-center"></i>
+                                    <i class="bi bi-instagram"></i>
+                                    <i class="bi bi-twitter"></i>
+                                    <i class="bi bi-youtube"></i>
+                                    <i class="bi bi-facebook"></i>
+                                </div>
+                            </a>
+                            <li class="nav-item mt-3"><a href="#" class="nav-link p-0 text-muted"><img
+                                        src="../pics/playstoreimg2.webp" alt="" height="30px" width="100px"></a></li>
+                            <li class="nav-item mt-3"><a href="#" class="nav-link p-0 text-muted"><img
+                                        src="../pics/playstoreimg.webp" alt="" height="30px" width="100px"></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class=" container d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top id=">
+                    <p class="fw-light px-5 color">By continuing past this page, you agree to our Terms of Service,
+                        Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their
+                        respective owners. 2008-2022 © Zomato™ Ltd. All rights reserved.</p>
+
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
